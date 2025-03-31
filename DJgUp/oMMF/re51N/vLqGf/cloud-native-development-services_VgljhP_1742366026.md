@@ -6,7 +6,6 @@ All members of the project community must abide by the [SAP Open Source Code of 
 Only by respecting each other we can develop a productive, collaborative community.
 Instances of abusive, harassing, or otherwise unacceptable behavior may be reported by contacting [a project maintainer](.reuse/dep5).
 
-## Engaging in Our Project
 
 We use GitHub to manage reviews of pull requests.
 
