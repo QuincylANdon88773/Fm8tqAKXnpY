@@ -12,6 +12,5 @@ traces/
 **/__fixtures__/
 **/fixtures
 **/__snapshots__/
-**/dist/
 **/.cache/
 *.md
