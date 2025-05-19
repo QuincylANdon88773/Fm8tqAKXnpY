@@ -4,7 +4,6 @@ const mongoose = require("mongoose");
 const path = require("path");
 const helmet = require("helmet");
 const cors = require("cors");
-const mongoSanitize = require("express-mongo-sanitize");
 const rateLimit = require("express-rate-limit");
 const cookieParser = require("cookie-parser");
 const authenticateToken = require("./server/middlewares/authMiddleware");
