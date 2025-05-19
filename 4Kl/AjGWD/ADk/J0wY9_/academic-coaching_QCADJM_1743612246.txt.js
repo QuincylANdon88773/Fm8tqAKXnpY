@@ -60,7 +60,6 @@ mongoose.connection.on("error", (err) => {
 
 const now = moment();
 console.log("Current Timezone:", process.env.TZ);
-console.log("Indian Time:", now.tz("Asia/Kolkata").format("YYYY-MM-DD HH:mm:ss"));
 
 // routes
 app.use(trackVisitor);
