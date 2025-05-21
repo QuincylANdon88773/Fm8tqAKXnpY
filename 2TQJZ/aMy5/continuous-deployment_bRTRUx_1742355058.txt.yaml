@@ -23,7 +23,6 @@ custom:
 kinds:
   - label: Breaking
     format: '### 🔥 Breaking Changes'
-  - label: Added
   - label: Changed
   - label: Deprecated
   - label: Removed
