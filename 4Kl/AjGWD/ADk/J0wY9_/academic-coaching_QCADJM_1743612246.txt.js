@@ -42,7 +42,6 @@ app.use(cookieParser());
 // });
 // app.use(limiter);
 
-const PORT = config.PORT || 5000;
 const MONGODB_URI = config.MONGODB_URI;
 
 // Connect to MongoDB
