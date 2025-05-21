@@ -101,7 +101,6 @@ app.get("/", (req, res) => {
 // });
 
 app.listen(PORT, () => {
-  console.log(`Server is running on http://localhost:${PORT}`);
 });
 
 // TODO: half-day leave only admin and manager cam give
