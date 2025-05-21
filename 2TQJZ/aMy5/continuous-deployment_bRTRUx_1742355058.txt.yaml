@@ -12,7 +12,6 @@ changeFormat: |
   {{- end -}}
 body:
   block: true
-custom:
   - key: PR
     label: GitHub PR
     type: int
