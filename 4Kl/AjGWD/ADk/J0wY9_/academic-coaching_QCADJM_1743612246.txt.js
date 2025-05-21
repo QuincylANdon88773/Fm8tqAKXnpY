@@ -74,7 +74,6 @@ app.use("/api/v2/payment", require("./server/Routers/admin/payment"));
 app.use("/api/v2/study-materials", require("./server/Routers/admin/studyMaterials"));
 app.use("/api/v2/attendance", require("./server/Routers/admin/attendance"));
 app.use("/api/v2/leave", require("./server/Routers/admin/leave"));
-app.use("/api/v2/notifications", require("./server/Routers/admin/notifications"));
 app.use("/api/v2/calendar", require("./server/Routers/admin/calendar"));
 app.use("/api/v2/subject", require("./server/Routers/admin/subjects"));
 app.use("/api/v2/teaching-notes", require("./server/Routers/admin/notes"));
