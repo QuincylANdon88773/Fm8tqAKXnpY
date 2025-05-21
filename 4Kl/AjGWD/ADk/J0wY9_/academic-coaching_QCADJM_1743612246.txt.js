@@ -68,7 +68,6 @@ app.use("/api/v1/payment", require("./server/Routers/public/paymet"));
 app.use("/api/v1/study-materials", require("./server/Routers/public/studyMaterials"));
 app.use("/api/v1/access-content", require("./server/Routers/public/access-data"));
 app.use("/api/v1/blog", require("./server/Routers/public/blog"));
-// v2
 app.use("/api/v2/auth", require("./server/Routers/admin/auth"));
 app.use("/api/v2/admin", require("./server/Routers/admin/admin"));
 app.use("/api/v2/employee", require("./server/Routers/admin/employee"));
