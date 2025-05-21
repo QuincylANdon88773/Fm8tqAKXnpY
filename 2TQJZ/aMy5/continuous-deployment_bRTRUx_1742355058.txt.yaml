@@ -10,7 +10,6 @@ changeFormat: |
   {{- with $lines._1 -}}
     {{- . | trim | indent 2 }}
   {{- end -}}
-body:
   block: true
     label: GitHub PR
   - key: Author
