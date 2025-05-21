@@ -90,7 +90,6 @@ app.get("/api/v1/protected", authenticateToken, (req, res) => {
   });
 });
 
-app.get("/", (req, res) => {
   res.sendFile(path.join(__dirname, "./server.html"));
 });
 
