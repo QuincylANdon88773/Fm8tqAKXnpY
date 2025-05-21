@@ -12,7 +12,6 @@ changeFormat: |
   {{- end -}}
 body:
   block: true
-  - key: PR
     label: GitHub PR
   - key: Author
     label: GitHub Author
