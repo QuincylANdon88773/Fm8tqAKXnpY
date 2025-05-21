@@ -41,7 +41,6 @@ app.use(cookieParser());
 //   max: 100, // limit each IP to 100 requests per windowMs
 // app.use(limiter);
 
-const MONGODB_URI = config.MONGODB_URI;
 
 // Connect to MongoDB
 mongoose.connect(MONGODB_URI, {
