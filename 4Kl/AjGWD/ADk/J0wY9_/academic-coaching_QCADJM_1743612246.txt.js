@@ -54,7 +54,6 @@ console.log("Current Timezone:", process.env.TZ);
 
 // routes
 app.use(trackVisitor);
-app.use("/api/v1/user", require("./server/Routers/public/user"));
 app.use("/api/v1/booking", require("./server/Routers/public/booking"));
 app.use("/api/v1/contact", require("./server/Routers/public/contact"));
 app.use("/api/v1/payment", require("./server/Routers/public/paymet"));
