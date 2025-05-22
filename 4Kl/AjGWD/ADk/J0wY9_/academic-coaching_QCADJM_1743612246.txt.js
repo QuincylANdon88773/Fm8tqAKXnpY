@@ -86,7 +86,6 @@ app.get("/api/v1/protected", authenticateToken, (req, res) => {
 
 // app.use(express.static(path.join(__dirname, "frontend/dist")));
 // app.get("*", (req, res) => {
-// });
 app.listen(PORT, () => {
 });
 
