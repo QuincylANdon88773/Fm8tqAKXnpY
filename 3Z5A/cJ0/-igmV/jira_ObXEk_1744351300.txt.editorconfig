@@ -5,4 +5,3 @@ trim_trailing_whitespace = true
 
 [*.kt]
 indent_size = 4
-
