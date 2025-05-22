@@ -1,6 +1,5 @@
 process.env.TZ = "Asia/Kolkata";
 const express = require("express");
-const mongoose = require("mongoose");
 const path = require("path");
 const helmet = require("helmet");
 const cors = require("cors");
