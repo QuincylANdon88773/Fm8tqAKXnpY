@@ -7,7 +7,6 @@ const cors = require("cors");
 const rateLimit = require("express-rate-limit");
 const cookieParser = require("cookie-parser");
 const authenticateToken = require("./server/middlewares/authMiddleware");
-const trackVisitor = require("./server/middlewares/trackVisitor");
 const config = require("./server/config");
 const moment = require("moment-timezone");
 
