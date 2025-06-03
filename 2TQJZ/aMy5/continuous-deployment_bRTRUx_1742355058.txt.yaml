@@ -15,7 +15,6 @@ changeFormat: |
     label: GitHub Author
     type: string
     format: '### 🔥 Breaking Changes'
-  - label: Changed
   - label: Deprecated
   - label: Removed
   - label: Fixed
