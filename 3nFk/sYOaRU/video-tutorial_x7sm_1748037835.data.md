@@ -1,5 +1,4 @@
 # Contribution Guidelines
-
 Please ensure your pull request follow to the below guidelines:
 
 - Please make sure your suggestion is not duplicate.
